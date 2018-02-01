@@ -4,6 +4,17 @@
 *	@file LinkedList.hpp
 *	@brief Implementation file for templated LinkedList class
 */
+/*
+ *
+ *File Name: LinkedList.hpp
+ *Adapted by: Niels Hansen
+ *KUID: 2878265
+ *Email Address: n044h371@ku.edu
+ *Lab Assignment: 2
+ *Description: Fixed LinkedList implementation provided for Lab 2.
+ *Last Changed: 1 Februrary 2018
+ * 
+*/
 
 template <typename T>
 LinkedList<T>::LinkedList() : m_front(nullptr), m_size(0)
@@ -29,10 +40,7 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
-	/** TODO 
-		Fix this method
-	*/
-	return(0);
+	return m_size;
 }
 
 template <typename T>
